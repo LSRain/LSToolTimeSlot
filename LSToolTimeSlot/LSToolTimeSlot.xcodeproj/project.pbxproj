@@ -12,6 +12,7 @@
 		51D789511EEF7E8100F96AF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D789501EEF7E8100F96AF3 /* ViewController.m */; };
 		51D789561EEF7E8100F96AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51D789551EEF7E8100F96AF3 /* Assets.xcassets */; };
 		51D789591EEF7E8100F96AF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51D789571EEF7E8100F96AF3 /* LaunchScreen.storyboard */; };
+		51D789641EEF814C00F96AF3 /* LSTimeSlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D789631EEF814C00F96AF3 /* LSTimeSlot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		51D789551EEF7E8100F96AF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51D789581EEF7E8100F96AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51D7895A1EEF7E8100F96AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51D789621EEF814C00F96AF3 /* LSTimeSlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTimeSlot.h; sourceTree = "<group>"; };
+		51D789631EEF814C00F96AF3 /* LSTimeSlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTimeSlot.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 		51D789481EEF7E8100F96AF3 /* LSToolTimeSlot */ = {
 			isa = PBXGroup;
 			children = (
+				51D789601EEF812400F96AF3 /* Class */,
 				51D7894C1EEF7E8100F96AF3 /* AppDelegate.h */,
 				51D7894D1EEF7E8100F96AF3 /* AppDelegate.m */,
 				51D7894F1EEF7E8100F96AF3 /* ViewController.h */,
@@ -74,6 +78,23 @@
 				51D7894A1EEF7E8100F96AF3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51D789601EEF812400F96AF3 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				51D789611EEF812400F96AF3 /* Temp */,
+				51D789621EEF814C00F96AF3 /* LSTimeSlot.h */,
+				51D789631EEF814C00F96AF3 /* LSTimeSlot.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		51D789611EEF812400F96AF3 /* Temp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Temp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +170,7 @@
 				51D789511EEF7E8100F96AF3 /* ViewController.m in Sources */,
 				51D7894E1EEF7E8100F96AF3 /* AppDelegate.m in Sources */,
 				51D7894B1EEF7E8100F96AF3 /* main.m in Sources */,
+				51D789641EEF814C00F96AF3 /* LSTimeSlot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
